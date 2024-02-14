@@ -1,0 +1,95 @@
+/* Estilos para el cuerpo de la página */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #434343; /* Azul claro para el fondo */
+    color: #ffffff; /* Texto principal en tono oscuro */
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilos para el video de fondo */
+.video-background {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    overflow: hidden;
+    z-index: -1;
+}
+
+.video-wrap {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.video {
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: -1;
+    object-fit: cover;
+}
+
+/* Estilos para el contenedor principal */
+
+.container {
+    width: 50%; /* Ancho del contenedor */
+    margin: 50px auto; /* Centrar el contenedor */
+    background-color: #121336bf; /* Fondo blanco para el contenedor */
+    padding: 20px;
+    border-radius: 8px; /* Bordes redondeados */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra ligera */
+}
+
+/* Estilos para el encabezado */
+h2 {
+    color: #ffffff; /* Azul claro para el encabezado */
+    text-align: center; /* Centrar el texto */
+    margin-bottom: 20px; /* Espacio inferior */
+}
+
+/* Estilos para los grupos de formulario */
+.form-group {
+    margin-bottom: 20px;
+}
+
+/* Estilos para las etiquetas de los campos */
+label {
+    display: block; /* Mostrar las etiquetas en una línea nueva */
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+/* Estilos para los campos de entrada */
+input[type="text"],
+input[type="email"],
+input[type="tel"] {
+    width: 95%; /* Ancho completo del campo de entrada */
+    padding: 10px; /* Espaciado interno */
+    border-radius: 8px; /* Bordes redondeados */
+}
+
+/* Estilos para el botón de enviar */
+input[type="submit"] {
+    width: 100%; /* Ancho completo del botón */
+    padding: 10px; /* Espaciado interno */
+    background-color: #190a55ab; /* Azul claro para el fondo del botón */
+    color: #fff; /* Texto blanco para contraste */
+    border: none;
+    border-radius: 8px; /* Bordes redondeados */
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #4169e1; /* Cambio de color al pasar el ratón */
+}
