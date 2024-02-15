@@ -97,3 +97,13 @@ input[type="submit"]:hover {
 a{
     background-color: #fff;
 }
+
+.back{
+    width: 100%; /* Ancho completo del botón */
+    padding: 10px; /* Espaciado interno */
+    background-color: #ec0a0a7c; /* Azul claro para el fondo del botón */
+    color: #ffffff;
+    border: none;
+    border-radius: 8px; /* Bordes redondeados */
+    cursor: pointer;
+}
