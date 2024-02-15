@@ -93,3 +93,7 @@ input[type="submit"] {
 input[type="submit"]:hover {
     background-color: #4169e1; /* Cambio de color al pasar el ratón */
 }
+
+a{
+    background-color: #fff;
+}
