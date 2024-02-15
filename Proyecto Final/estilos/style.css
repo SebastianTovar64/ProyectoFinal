@@ -85,3 +85,14 @@ footer {
     bottom: 0;
     width: 100%;
 }
+
+fgpWa svg { 
+    width: 5rem;
+    position: fixed;
+    bottom:8rem;
+    right: 0rem;
+    filter: drop-shadow( .8rem .8rem .8rem #0008);
+    }
+fgpWa svg :hover{
+    width:10rem;
+}
