@@ -43,10 +43,10 @@ body {
 /* Estilos para el contenedor principal */
 
 .container {
-    width: 30%; /* Ancho del contenedor */
-    margin: 50px auto; /* Centrar el contenedor */
+    width: 20%; /* Ancho del contenedor */
+    margin: 180px auto; /* Centrar el contenedor */
     background-color: #121336bf; /* Fondo blanco para el contenedor */
-    padding: 20px;
+    padding: 30px;
     border-radius: 8px; /* Bordes redondeados */
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra ligera */
 }
@@ -67,7 +67,7 @@ h2 {
 label {
     display: block; /* Mostrar las etiquetas en una línea nueva */
     font-weight: bold;
-    margin-bottom: 5px;
+    margin-bottom: 15px;
 }
 
 /* Estilos para los campos de entrada */
@@ -95,7 +95,7 @@ input[type="submit"]:hover {
 }
 
 a[class=back]:hover{
-    background-color: #5504048a;
+    background-color: #f01010dc;
 }
 
 .back{
@@ -109,5 +109,5 @@ a[class=back]:hover{
 }
 
 a[class=form]{
-    color: aqua;
+    color: rgb(11, 239, 151);
 }
