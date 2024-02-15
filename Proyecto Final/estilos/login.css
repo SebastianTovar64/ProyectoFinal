@@ -43,7 +43,7 @@ body {
 /* Estilos para el contenedor principal */
 
 .container {
-    width: 50%; /* Ancho del contenedor */
+    width: 30%; /* Ancho del contenedor */
     margin: 50px auto; /* Centrar el contenedor */
     background-color: #121336bf; /* Fondo blanco para el contenedor */
     padding: 20px;
@@ -94,8 +94,8 @@ input[type="submit"]:hover {
     background-color: #4169e1; /* Cambio de color al pasar el ratón */
 }
 
-a{
-    background-color: #fff;
+a[class=back]:hover{
+    background-color: #5504048a;
 }
 
 .back{
@@ -106,4 +106,8 @@ a{
     border: none;
     border-radius: 8px; /* Bordes redondeados */
     cursor: pointer;
+}
+
+a[class=form]{
+    color: aqua;
 }
